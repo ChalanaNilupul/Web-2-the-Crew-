@@ -38,7 +38,7 @@
 
 ![screenshot](./ss.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+<!---Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:-->
 
 - You can see my demo website from [here](https://beautiful-panda-e574e1.netlify.app)
 <!--- What was your experience?
