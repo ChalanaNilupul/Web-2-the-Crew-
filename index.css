@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.details {
+    display: flex;
+    margin-top: 5vh;
+
+    width: 60%;
+}
+
+.details .head {
+
+    width: 50%;
+}
+
+.details .head h1 {
+    font-family: 'PT Serif', serif;
+    text-align: left;
+    padding-left: 5vw;
+}
+
+.details .text {
+    padding-left: 2vw;
+}
+
+.details .text p {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    text-align: justify;
+
+}
+
+.details .text h2 {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.out {
+    display: flex;
+    justify-content: center;
+}
+
+.person {
+    /* background-color: blueviolet; */
+    width: 60%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+}
+
+.card {
+    margin: 5vh 5vw 2vh 0;
+}
+
+#two {
+    padding-top: 10vh;
+}
+
+#five {
+    padding-top: 10vh;
+}
+
+.card .in {
+    display: flex;
+
+}
+
+.card .in img {
+    width: 10vw;
+}
+
+.card .in h3 {
+    writing-mode: vertical-lr;
+    padding-left: 5px;
+    font-family: 'PT Serif', serif;
+    font-size: 1vw;
+}
+
+.card h4 {
+    padding-top: 10px;
+    font-size: 1.2vw;
+    font-family: 'Poppins', sans-serif;
+}
+.footer{
+    margin-top: 50px;
+}
+.footer p{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+@media only screen and (max-width:912px) {
+    .details {
+
+
+        width: 90%;
+    }
+
+    .person {
+        width: 90%;
+    }
+
+    .card .in img {
+        width: 20vw;
+    }
+
+    .card .in h3 {
+        font-size: 1.5vw;
+    }
+
+    .card h4 {
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .details {
+        display: block;
+        margin-top: 5vh;
+
+        width: 90%;
+    }
+
+    .details .head h1 {
+        font-size: 8vw;
+        width: 80vw;
+        padding: 0;
+    }
+
+    .details .text {
+        padding: 0;
+    }
+
+    .details .text h2 {
+        font-size: 5vw;
+        margin-top: 30px;
+    }
+
+    .details .text p {
+        margin-top: 10px;
+    }
+
+    .person {
+        grid-template-columns: auto auto;
+        align-items:stretch;
+        height: 110vh;
+    }
+    .card{
+       
+    }
+    .card .in img {
+        width: 30vw;
+       
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-505);
+    }
+
+    .card .in h3 {
+        font-size: 2vw;
+    }
+
+    .card h4 {
+        font-size: 3vw;
+    }
+    #one{
+        padding-bottom: 10vh;
+    }
+    #two {
+        padding-top: 10vh;
+    }
+    
+    #three {
+        padding-bottom: 10vh;
+    }
+    #four {
+        padding-top: 10vh;
+    }
+    #five {
+       
+        padding-top: 0vh;
+        height:10vh
+    }
+    #six {
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        
+    }
+    .footer{
+        margin-top: 40vh;
+        font-size: 3vw;
+    }
+}
